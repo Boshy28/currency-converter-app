@@ -1,0 +1,68 @@
+@media (max-width: 1200px) {
+}
+
+@media (max-width: 991px) {
+  h2 {
+    font-size: 40px;
+  }
+  .container .block {
+    input {
+      width: 50%;
+    }
+    select {
+      width: 15%;
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  h2 {
+    padding: 0 20px;
+  }
+  .container .block {
+    select {
+      width: 18%;
+    }
+  }
+}
+
+@media (max-width: 575px) {
+  h2 {
+    padding: 0 43px;
+  }
+  header span {
+    font-size: 38px;
+  }
+  .container .block {
+    input {
+      width: 55%;
+    }
+    select {
+      width: 21%;
+    }
+  }
+}
+
+@media (max-width: 375px) {
+  h2 {
+    padding: 0 27px;
+    font-size: 34px;
+  }
+  header span {
+    font-size: 30px;
+  }
+
+  .container .block {
+    input {
+      width: 52%;
+      font-size: 28px;
+    }
+    input::-webkit-input-placeholder {
+      font-size: 15px;
+    }
+    select {
+      width: 26%;
+      font-size: 28px;
+    }
+  }
+}
